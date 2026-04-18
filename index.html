@@ -17,12 +17,18 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="noise"></div>
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
     <div class="page-shell">
       <header class="site-header">
         <a class="brand" href="#top" aria-label="Home">NC</a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+        </button>
+
         <nav class="main-nav" aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
@@ -31,22 +37,22 @@
           <a href="#interests">Interests</a>
           <a href="#contact">Contact</a>
         </nav>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle menu">
-          <span></span>
-          <span></span>
-        </button>
       </header>
 
       <main id="top">
-        <section class="hero">
+        <section class="hero section">
           <div class="hero-copy">
             <p class="eyebrow">Portfolio of a systems-minded operator</p>
-            <h1>Turning complex workflows into <span>clear, trusted systems.</span></h1>
+            <h1>
+              Turning complex workflows into
+              <span>clear, trusted systems.</span>
+            </h1>
             <p class="hero-text">
               I'm Neetika Chavan, a management professional working across operations,
               automation, compliance, and process improvement. I enjoy making business systems
               more reliable without losing sight of the people who use them every day.
             </p>
+
             <div class="hero-actions">
               <a class="button button-primary" href="#case-studies">Explore Case Studies</a>
               <a
@@ -57,6 +63,7 @@
                 >LinkedIn</a
               >
             </div>
+
             <div class="hero-ribbon">
               <span>Operations</span>
               <span>Automation</span>
@@ -85,9 +92,9 @@
                 <span class="metric-value">1000</span>
                 <span class="metric-label">Invoices handled monthly in the automated GST workflow</span>
               </article>
-              <article class="glass-card metric-card wide">
-                <span class="metric-value">Trusted rollout</span>
-                <span class="metric-label">Paused, stress-tested, and improved factory planning logic before adoption</span>
+              <article class="glass-card metric-card">
+                <span class="metric-value">Trust first</span>
+                <span class="metric-label">Paused and improved planning logic before rollout to protect accuracy</span>
               </article>
             </div>
           </aside>
@@ -96,34 +103,28 @@
         <section class="section intro-section" id="about">
           <div class="section-heading split-heading">
             <div>
-              <p class="eyebrow">Design direction</p>
-              <h2>Creative, modern, and personal with enough structure to feel credible.</h2>
+              <p class="eyebrow">About</p>
+              <h2>Creative, modern, and grounded in the way I solve operational problems.</h2>
             </div>
             <p class="section-note">
-              I shaped this around the tone of your references: editorial typography, visual
-              breathing room, image-led storytelling, and a site that feels like a growing
-              personal world instead of a resume pasted onto the web.
+              My work sits at the intersection of process design, automation, communication, and
+              stakeholder trust. This site is meant to feel personal without losing professional
+              clarity.
             </p>
           </div>
 
           <div class="intro-grid">
             <article class="glass-card intro-card">
-              <h3>Professional core</h3>
-              <p>Strong enough for recruiters and hiring managers to understand your work fast.</p>
+              <h3>How I work</h3>
+              <p>I like turning ambiguity into systems people can actually rely on.</p>
             </article>
             <article class="glass-card intro-card">
-              <h3>Case-study ready</h3>
-              <p>
-                The automation projects now read like problem-solving stories, not just bullet
-                points.
-              </p>
+              <h3>What I build</h3>
+              <p>Workflows, controls, dashboards, and operating structures that reduce friction.</p>
             </article>
             <article class="glass-card intro-card">
-              <h3>Personal depth</h3>
-              <p>
-                Extracurricular and interest sections are designed as interactive image blocks so
-                your personality feels visible on the page.
-              </p>
+              <h3>What matters most</h3>
+              <p>Accuracy, adoption, and making process improvement feel practical rather than abstract.</p>
             </article>
           </div>
         </section>
@@ -131,7 +132,7 @@
         <section class="section experience-section" id="experience">
           <div class="section-heading">
             <p class="eyebrow">Experience</p>
-            <h2>Roles where analysis, communication, and execution had to work together.</h2>
+            <h2>Roles where analysis, execution, and people alignment had to move together.</h2>
           </div>
 
           <div class="timeline">
@@ -142,11 +143,8 @@
                 <p class="timeline-date">August 2025 - Present</p>
               </div>
               <div class="timeline-content">
-                <p>
-                  Driving process improvement across finance, production planning, training, risk,
-                  and audit readiness in a manufacturing context.
-                </p>
-                <ul>
+                <ul class="star-list">
+                  <li>Drove process improvement across finance, production planning, training, risk, and audit readiness in a manufacturing context.</li>
                   <li>Built GST 2B reconciliation automation in Power Query for higher-volume monthly filing cycles.</li>
                   <li>Created a Google Apps Script-based factory planning workflow with stronger controls and stakeholder trust.</li>
                   <li>Drafted ISO and ESG-aligned OHS policy to strengthen audit readiness.</li>
@@ -162,11 +160,8 @@
                 <p class="timeline-date">February 2024 - December 2024</p>
               </div>
               <div class="timeline-content">
-                <p>
-                  Worked on workflow standardization and digital coordination in an education
-                  environment.
-                </p>
-                <ul>
+                <ul class="star-list">
+                  <li>Worked on workflow standardization and digital coordination in an education environment.</li>
                   <li>Led Monday.com implementation to improve cross-functional coordination.</li>
                   <li>Designed LMS onboarding modules to standardize compliance processes.</li>
                   <li>Mapped operational workflows to identify improvement opportunities.</li>
@@ -181,10 +176,9 @@
                 <p class="timeline-date">December 2023 - February 2024</p>
               </div>
               <div class="timeline-content">
-                <p>
-                  Evaluated internal innovation proposals and developed structured automation
-                  recommendations for better execution potential.
-                </p>
+                <ul class="star-list">
+                  <li>Evaluated internal innovation proposals and developed structured automation recommendations for better execution potential.</li>
+                </ul>
               </div>
             </article>
 
@@ -195,8 +189,8 @@
                 <p class="timeline-date">January 2021 - October 2021</p>
               </div>
               <div class="timeline-content">
-                <p>Led requirement gathering and roadmap planning across digital product work.</p>
-                <ul>
+                <ul class="star-list">
+                  <li>Led requirement gathering and roadmap planning across digital product work.</li>
                   <li>Designed UI wireframes for 7 websites and 5 mobile apps.</li>
                 </ul>
               </div>
@@ -211,8 +205,8 @@
               <h2>End-to-end automation work with business context, controls, and outcomes.</h2>
             </div>
             <p class="section-note">
-              These are written to emphasize not only the build, but also how you handled
-              ambiguity, risk, and stakeholder confidence.
+              These projects highlight not just what I built, but how I handled ambiguity,
+              validation, stakeholder confidence, and operational adoption.
             </p>
           </div>
 
@@ -305,36 +299,66 @@
               </div>
             </article>
           </div>
-
-          <div class="future-build glass-card">
-            <p class="eyebrow">Future expansion</p>
-            <h3>Next, this can grow into a full case-study library.</h3>
-            <p>
-              You mentioned you'll add future project work. The site now has a visual system that
-              can expand into standalone case-study pages, project journals, or a writing section
-              without changing the homepage structure.
-            </p>
-          </div>
         </section>
 
-        <section class="section skills-section">
-          <div class="section-heading">
-            <p class="eyebrow">Skills &amp; systems</p>
-            <h2>Tools I use to bring structure to work that starts messy.</h2>
+        <section class="section skills-section" id="skills">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Skills &amp; systems</p>
+              <h2>Tools, operating strengths, and delivery habits I keep building on.</h2>
+            </div>
+            <p class="section-note">
+              I tend to work best where analysis, structure, and cross-functional execution need to
+              come together quickly.
+            </p>
           </div>
-          <div class="chips">
-            <span>Power Query</span>
-            <span>Google Apps Script</span>
-            <span>Power BI</span>
-            <span>Advanced Excel</span>
-            <span>Process Mapping</span>
-            <span>Microsoft Visio</span>
-            <span>Risk Assessment</span>
-            <span>Monday.com</span>
-            <span>Notion</span>
-            <span>ClickUp</span>
-            <span>Trello</span>
-            <span>ISO / ESG Exposure</span>
+
+          <div class="skills-grid">
+            <article class="glass-card skill-card">
+              <p class="skill-kicker">Automation toolkit</p>
+              <h3>Workflow building and data shaping</h3>
+              <div class="skill-list">
+                <span>Power Query</span>
+                <span>Google Apps Script</span>
+                <span>Advanced Excel</span>
+                <span>Power BI</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <p class="skill-kicker">Ops thinking</p>
+              <h3>Process and control design</h3>
+              <div class="skill-list">
+                <span>Process Mapping</span>
+                <span>Risk Assessment</span>
+                <span>Audit Readiness</span>
+                <span>Documentation</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <p class="skill-kicker">Collaboration stack</p>
+              <h3>Platforms I use to keep work moving</h3>
+              <div class="skill-list">
+                <span>Monday.com</span>
+                <span>Notion</span>
+                <span>ClickUp</span>
+                <span>Trello</span>
+                <span>Microsoft Visio</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card skill-card-wide">
+              <p class="skill-kicker">Working strengths</p>
+              <h3>What I bring beyond the tools</h3>
+              <ul class="star-list compact-list">
+                <li>Breaking complex workflows into practical implementation steps.</li>
+                <li>Building controls early when accuracy and trust matter.</li>
+                <li>Translating stakeholder needs into clear process logic.</li>
+                <li>Combining analysis, structure, and communication in execution-heavy roles.</li>
+                <li>Operating comfortably across finance, factory, compliance, and education contexts.</li>
+              </ul>
+            </article>
           </div>
         </section>
 
@@ -345,15 +369,14 @@
               <h2>Leadership, public speaking, volunteering, and the moments that shaped me.</h2>
             </div>
             <p class="section-note">
-              These tiles now pull directly from your permanent photo folder on Z:, so swapping or
-              extending the gallery later stays straightforward.
+              A few milestones that capture how I show up outside day-to-day project delivery.
             </p>
           </div>
 
           <div class="gallery-grid achievement-gallery">
-            <article class="gallery-card large has-photo">
+            <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%201.jpg" alt="Astris Advisory Consulting Project, Tokyo, Japan" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Project</p>
                   <h3>Astris Advisory</h3>
@@ -361,9 +384,10 @@
                 <p class="gallery-hover">Astris Advisory Consulting Project<br />Tokyo, Japan</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%202.jpg" alt="ERP Sim by SAP - 2nd place" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Competition</p>
                   <h3>ERP Sim by SAP</h3>
@@ -371,9 +395,10 @@
                 <p class="gallery-hover">ERP Sim by SAP - 2nd place</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%203.jpg" alt="Leadership recognition during undergrad" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Leadership</p>
                   <h3>Undergrad Milestone</h3>
@@ -381,9 +406,10 @@
                 <p class="gallery-hover">Leadership recognition during undergrad</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Volunteering%201.jpg" alt="University volunteering and orientation support" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Community</p>
                   <h3>Volunteering at Uni</h3>
@@ -391,9 +417,10 @@
                 <p class="gallery-hover">University volunteering and orientation support</p>
               </div>
             </article>
-            <article class="gallery-card wide portrait has-photo">
+
+            <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%205.jpg" alt="Master's graduation - University of Melbourne" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Milestone</p>
                   <h3>Master's Graduation</h3>
@@ -401,9 +428,10 @@
                 <p class="gallery-hover">Master's graduation - University of Melbourne</p>
               </div>
             </article>
-            <article class="gallery-card portrait has-photo">
+
+            <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%207.jpg" alt="Speaker at the TB Oration by Hinduja Hospital" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Speaking</p>
                   <h3>TB Oration</h3>
@@ -411,9 +439,10 @@
                 <p class="gallery-hover">Speaker at the TB Oration by Hinduja Hospital</p>
               </div>
             </article>
-            <article class="gallery-card portrait has-photo">
+
+            <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Volunteering%202.jpg" alt="Melbourne orientation volunteer" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Community</p>
                   <h3>Orientation Volunteer</h3>
@@ -421,9 +450,10 @@
                 <p class="gallery-hover">Helping new students feel welcome on campus</p>
               </div>
             </article>
-            <article class="gallery-card portrait has-photo">
+
+            <article class="gallery-card has-photo">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Achievement%206.jpg" alt="Master's graduation celebration" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Celebration</p>
                   <h3>Graduation Day</h3>
@@ -438,9 +468,9 @@
           <div class="section-heading split-heading">
             <div>
               <p class="eyebrow">Interests atlas</p>
-              <h2>A softer, visual layer of the site built around the things I keep returning to.</h2>
+              <h2>A visual layer of the site built around the things I keep returning to.</h2>
             </div>
-            <div class="filter-wrap">
+            <div class="filter-wrap" role="tablist" aria-label="Interest categories">
               <button class="filter-button is-active" type="button" data-filter="all">All</button>
               <button class="filter-button" type="button" data-filter="coffee">Coffee</button>
               <button class="filter-button" type="button" data-filter="art">Art</button>
@@ -449,9 +479,9 @@
           </div>
 
           <div class="gallery-grid interests-gallery">
-            <article class="gallery-card tall has-photo" data-category="coffee">
+            <article class="gallery-card has-photo" data-category="coffee">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Coffee%201.jpg" alt="Latte art coffee" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Coffee</p>
                   <h3>Slow cafe mornings</h3>
@@ -459,9 +489,10 @@
                 <p class="gallery-hover">A well-made cup can reset an entire day.</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="coffee">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Coffee%202.jpg" alt="Coffee catch-up" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Coffee</p>
                   <h3>Coffee with company</h3>
@@ -469,9 +500,10 @@
                 <p class="gallery-hover">Coffee dates are one of my favorite ways to catch up.</p>
               </div>
             </article>
-            <article class="gallery-card wide has-photo" data-category="travel">
+
+            <article class="gallery-card has-photo" data-category="travel">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Travel%201.jpg" alt="Travel photo from Belgrave, Victoria" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Travel</p>
                   <h3>Belgrave</h3>
@@ -479,9 +511,10 @@
                 <p class="gallery-hover">Belgrave, Victoria</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="travel">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Travel%202.jpg" alt="Travel photo from Melbourne, Victoria" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Travel</p>
                   <h3>Melbourne</h3>
@@ -489,9 +522,10 @@
                 <p class="gallery-hover">Melbourne, Victoria</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="travel">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Travel%203.jpg" alt="Travel photo from Tokyo, Japan" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Travel</p>
                   <h3>Tokyo</h3>
@@ -499,9 +533,10 @@
                 <p class="gallery-hover">Tokyo, Japan</p>
               </div>
             </article>
-            <article class="gallery-card portrait has-photo" data-category="coffee">
+
+            <article class="gallery-card has-photo" data-category="coffee">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Coffee%203.jpg" alt="Iced coffee" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Coffee</p>
                   <h3>My default order</h3>
@@ -509,9 +544,10 @@
                 <p class="gallery-hover">Usually iced, usually in hand.</p>
               </div>
             </article>
-            <article class="gallery-card wide has-photo" data-category="travel">
+
+            <article class="gallery-card has-photo" data-category="travel">
               <img class="gallery-image" src="file:///Z:/Personal%20website%20photos/Travel%204.jpg" alt="Travel photo from Rottnest Island, Western Australia" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Travel</p>
                   <h3>Rottnest Island</h3>
@@ -519,9 +555,10 @@
                 <p class="gallery-hover">Rottnest Island, Western Australia</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="art">
               <img class="gallery-image contain" src="file:///Z:/Personal%20website%20photos/Art%201.png" alt="Winter street illustration" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay art-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Art</p>
                   <h3>Winter Street</h3>
@@ -529,9 +566,10 @@
                 <p class="gallery-hover">A cozy street scene from my sketching practice.</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="art">
               <img class="gallery-image contain" src="file:///Z:/Personal%20website%20photos/Art%202.png" alt="Cookie drawing" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay art-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Art</p>
                   <h3>Cookie Study</h3>
@@ -539,9 +577,10 @@
                 <p class="gallery-hover">A playful drawing built from simple shapes and texture.</p>
               </div>
             </article>
+
             <article class="gallery-card has-photo" data-category="art">
               <img class="gallery-image contain" src="file:///Z:/Personal%20website%20photos/Art%203.png" alt="Dog illustration" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay art-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Art</p>
                   <h3>Shaggy Pup</h3>
@@ -549,9 +588,10 @@
                 <p class="gallery-hover">One of my more expressive character-style drawings.</p>
               </div>
             </article>
-            <article class="gallery-card wide has-photo" data-category="art">
+
+            <article class="gallery-card has-photo" data-category="art">
               <img class="gallery-image contain" src="file:///Z:/Personal%20website%20photos/Art%204.png" alt="Coral illustration" loading="lazy" />
-              <div class="gallery-inner">
+              <div class="gallery-overlay art-overlay">
                 <div class="gallery-copy">
                   <p class="gallery-tag">Art</p>
                   <h3>Coral Forms</h3>
@@ -566,12 +606,25 @@
           <div class="contact-card glass-card">
             <div>
               <p class="eyebrow">Contact</p>
-              <h2>Open to work and conversations around operations, automation, and business problem solving.</h2>
+              <h2>Open to conversations around operations, automation, systems, and thoughtful problem solving.</h2>
             </div>
-            <div class="contact-details">
-              <a href="mailto:work.neetika@gmail.com">work.neetika@gmail.com</a>
-              <a href="https://www.linkedin.com/in/neetika-chavan/" target="_blank" rel="noreferrer">linkedin.com/in/neetika-chavan</a>
-              <p>Mumbai, India</p>
+
+            <div class="contact-actions">
+              <a
+                class="button button-primary"
+                href="https://www.linkedin.com/in/neetika-chavan/"
+                target="_blank"
+                rel="noreferrer"
+                >Let's connect</a
+              >
+              <a
+                class="button button-secondary"
+                href="mailto:work.neetika@gmail.com?subject=Let's%20connect"
+                target="_blank"
+                rel="noreferrer"
+                >Reach out to me</a
+              >
+              <p class="contact-location">Mumbai, India</p>
             </div>
           </div>
         </section>
