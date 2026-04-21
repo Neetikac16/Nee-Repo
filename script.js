@@ -8,6 +8,9 @@ const filterButtons = document.querySelectorAll(".filter-button");
 const interestCards = document.querySelectorAll(".interests-gallery .gallery-card");
 const tiltCards = document.querySelectorAll(".tilt-card");
 const galleries = document.querySelectorAll(".gallery-grid");
+const scrollTargets = document.querySelectorAll(
+  ".hero-copy, .hero-stack, .section-heading, .case-study, .skill-card, .gallery-card"
+);
 
 if (navToggle && nav) {
   navToggle.addEventListener("click", () => {
@@ -40,7 +43,22 @@ if ("IntersectionObserver" in window) {
 
   revealTargets.forEach((element) => {
     element.classList.add("reveal");
+    const index = Array.from(revealTargets).indexOf(element);
+    element.style.setProperty("--reveal-delay", `${Math.min(index * 28, 220)}ms`);
     observer.observe(element);
+  });
+}
+
+function updateScrollMotion() {
+  const viewportHeight = window.innerHeight || 1;
+
+  scrollTargets.forEach((element) => {
+    const rect = element.getBoundingClientRect();
+    const midpoint = rect.top + rect.height / 2;
+    const distanceFromCenter = midpoint - viewportHeight / 2;
+    const shift = Math.max(-10, Math.min(10, distanceFromCenter * -0.018));
+
+    element.style.setProperty("--scroll-shift", `${shift}px`);
   });
 }
 
@@ -131,6 +149,8 @@ tiltCards.forEach((card) => {
 });
 
 window.addEventListener("resize", refreshGallery);
+window.addEventListener("resize", updateScrollMotion);
+window.addEventListener("scroll", updateScrollMotion, { passive: true });
 
 document.querySelectorAll(".gallery-image").forEach((image) => {
   if (image.complete) {
@@ -141,3 +161,4 @@ document.querySelectorAll(".gallery-image").forEach((image) => {
 });
 
 refreshGallery();
+updateScrollMotion();
