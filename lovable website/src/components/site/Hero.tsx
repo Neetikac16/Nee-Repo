@@ -26,7 +26,7 @@ export function Hero() {
           <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-ink-muted md:text-xl">
             Project and operations professional based in Mumbai, working remote/global-first.
             I help teams map workflows, coordinate AI and automation initiatives, and turn
-            operational ambiguity into delivery plans people can actually adopt.
+            operational ambiguity into functional processes people can actually adopt.
           </p>
 
           <div className="hero-meta mt-10 flex flex-wrap gap-3">
@@ -48,7 +48,7 @@ export function Hero() {
             </div>
             <div className="rounded-2xl bg-paper px-5 py-3.5">
               <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-ink/40">
-                Toolkit
+                Niche
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
                 AI Use Cases | Automation | Process Design
@@ -61,7 +61,7 @@ export function Hero() {
               href="#contact"
               className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-canvas transition-transform hover:scale-105"
             >
-              Contact me
+              Say Hi!
             </a>
             <a
               href="#projects"
@@ -87,7 +87,7 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-8 -left-6 max-w-[260px] rotate-[-3deg] rounded-3xl bg-terracotta p-5 text-terracotta-foreground shadow-warm">
               <p className="font-serif text-base italic leading-snug">
-                Remote/global-first + Mumbai, India
+                Global Project Management Professional
               </p>
             </div>
             <div className="absolute -top-6 -right-4 rotate-[6deg] rounded-2xl bg-butter px-4 py-3 shadow-soft">

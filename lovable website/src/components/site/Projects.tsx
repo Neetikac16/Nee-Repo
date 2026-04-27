@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gstImg from "@/assets/project-gst.jpg";
 import dashImg from "@/assets/project-dashboard.jpg";
-import achievementImg from "@/assets/achievement.jpg";
+import astrisImg from "@/assets/astris.jpg";
 
 type Project = {
   id: string;
@@ -25,16 +25,16 @@ const projects: Project[] = [
     index: "01",
     tags: ["AI Deployment", "Consulting", "PMO", "Change Management"],
     title: "Astris Advisory AI Transformation Proposal",
-    hook: "A University of Melbourne consulting project for a Japanese financial advisory firm.",
-    image: achievementImg,
-    imageAlt: "Illustration of a trophy with a laurel wreath and certificate",
+    hook: "A consulting project for a Japanese financial advisory firm, partnering with the University of Melbourne",
+    image: astrisImg,
+    imageAlt: "Astris Advisory team photo",
     imageBg: "bg-butter",
     context:
-      "Astris Advisory, Japan, wanted to understand how AI could improve operations, workflows, and client service across corporate advisory, financial advisory, and investment advisory teams.",
+      "Astris Advisory wanted to understand how AI could improve operations, workflows, and client service across corporate advisory, financial advisory, and investment advisory teams.",
     role:
-      "Served as a consulting team member in a cross-functional group of business, IT, and AI-background master's students. I shaped frameworks, researched AI applications, tested solutions, built use cases, created the presentation, and presented the Microsoft Copilot leg of the solution.",
+      "Served in the cross-functional consulting team of business, IT, and AI major master's students. I shaped frameworks, researched corporate AI applications, tested solutions, built use cases, created the presentation, and presented the Microsoft Copilot leg of the solution.",
     approach: [
-      "Mapped current workflows and pain points across advisory divisions, including repetitive content generation, manual research, CRM underuse, and inconsistent output quality.",
+      "Mapped workflows and pain points across three advisory divisions, including repetitive content generation, manual research, CRM underuse, and inconsistent output quality.",
       "Applied gap analysis, SWOT analysis, benchmarking, and use-case testing to identify where AI and automation could add practical value.",
       "Developed Copilot use cases for reports, presentations, meetings, email, contract review, and payment reconciliation.",
       "Contributed to a phased roadmap covering IT capability, Azure/cloud foundations, CRM optimization, automation development, governance, risk, and change management.",
@@ -105,7 +105,7 @@ export function Projects() {
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-ink-muted">
-            These projects sit where PMO, operations, automation, and AI adoption meet:
+            These projects sit where project management, operations, automation, and AI adoption meet:
             diagnosing messy workflows, shaping practical solutions, and making change usable.
           </p>
         </div>
@@ -175,7 +175,11 @@ export function Projects() {
                   <button
                     type="button"
                     onClick={() => setOpenProject(isOpen ? "" : p.id)}
-                    className="mt-7 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-canvas transition-transform hover:scale-105"
+                    className={`mt-10 rounded-full px-5 py-2.5 text-sm font-semibold transition-transform hover:scale-105 ${
+                      p.id === "astris"
+                        ? "bg-terracotta text-terracotta-foreground"
+                        : "bg-sage text-canvas"
+                    }`}
                     aria-expanded={isOpen}
                   >
                     {isOpen ? "Hide details" : "Read case study"}

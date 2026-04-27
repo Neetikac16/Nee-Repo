@@ -1,3 +1,5 @@
+import coffeeImg from "@/assets/coffee.jpg";
+
 const linkedInUrl = "https://www.linkedin.com/in/neetika-chavan/";
 const emailAddress = "work.neetika@gmail.com";
 const mailto = `mailto:${emailAddress}?subject=PMO%20%2F%20AI%20deployment%20role&body=Hi%20Neetika%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat.%0A%0A`;
@@ -10,16 +12,26 @@ export function Contact() {
           data-reveal
           className="mb-6 inline-block font-serif text-2xl italic text-terracotta"
         >
-          Open to remote/global-first opportunities
+          Open to global remote-first opportunities
         </span>
-        <h2
+        <div
           data-reveal
           style={{ transitionDelay: "80ms" }}
-          className="font-serif text-5xl leading-[1.05] text-ink md:text-7xl"
+          className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-6 md:flex-row"
         >
-          Let's talk about{" "}
-          <span className="italic text-sage">AI-ready operations.</span>
-        </h2>
+          <h2 className="font-serif text-5xl leading-[1.05] text-ink md:text-7xl">
+            Let's talk about{" "}
+            <span className="italic text-sage">more over a coffee.</span>
+          </h2>
+          <img
+            src={coffeeImg}
+            alt="Coffee"
+            width={240}
+            height={240}
+            loading="lazy"
+            className="contact-coffee h-36 w-36 shrink-0 rounded-[2rem] object-cover shadow-soft md:h-44 md:w-44"
+          />
+        </div>
         <p
           data-reveal
           style={{ transitionDelay: "160ms" }}
@@ -50,8 +62,7 @@ export function Contact() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 rounded-full border border-ink/15 bg-canvas px-8 py-4 font-serif text-lg text-ink transition-colors hover:border-terracotta hover:text-terracotta md:text-xl"
           >
-            <span aria-hidden>in</span>
-            <span>Connect on LinkedIn</span>
+            <span>Let's connect</span>
             <span className="text-sm font-sans opacity-70 transition-transform group-hover:translate-x-1">
               -&gt;
             </span>
@@ -70,7 +81,7 @@ export function Contact() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-ink/10 pt-10 text-sm md:flex-row">
           <p className="text-xs uppercase tracking-[0.2em] text-ink/40">
-            Remote/global-first + Mumbai, India
+            Global remote-first
           </p>
           <div className="flex gap-6">
             <a

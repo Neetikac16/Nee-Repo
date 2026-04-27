@@ -258,6 +258,18 @@
     min-width: 0;
   }
 
+  .contact-coffee {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  @media (min-width: 768px) {
+    .contact-coffee {
+      height: 11rem;
+      width: 11rem;
+    }
+  }
+
   @media (max-width: 767px) {
     .hero-title {
       font-size: clamp(3rem, 9.5vw, 4.2rem);

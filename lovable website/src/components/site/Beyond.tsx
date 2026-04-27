@@ -1,16 +1,16 @@
-import achievementImg from "@/assets/achievement.jpg";
+import achievementImg from "@/assets/erpsim.jpg";
 import volunteeringImg from "@/assets/volunteering.jpg";
 
 const achievements = [
   "President of the Placement Cell, leading a 40-member team across 2 campus recruitment events with 50+ companies and 1,000+ students.",
-  "Trained 50 employees at PrintStop in structured communication and digital literacy.",
-  "Master of Management graduate from the University of Melbourne with consulting exposure across business, IT, and AI transformation work.",
+  "Second Prize in SAP's ERPSim Lab Student Competition 2023",
+  "Speaker at the Tuberculosis Oration 2026",
 ];
 
 const beyond = [
-  "I like work that turns ambiguity into a map: stakeholder notes, process flows, decision logs, and the practical next step.",
-  "Outside work, travel and visual thinking keep me curious about how people adapt to new systems.",
-  "That shows up in my delivery style: clear documentation, calm coordination, and a bias toward tools people can actually use.",
+  "I like work that turns ambiguity into a map: Process flows and the practical next step.",
+  "Outside work, travel and visual thinking keep me creative and curious about how people adapt.",
+  "That shows up in my delivery style: clear documentation, calm coordination, and a bias toward tools that are people-friendly.",
 ];
 
 export function Beyond() {
@@ -34,7 +34,7 @@ export function Beyond() {
             <div className="aspect-[16/10] overflow-hidden bg-butter">
               <img
                 src={achievementImg}
-                alt="Illustration of a trophy with a laurel wreath and certificate"
+                alt="ERPSim competition"
                 width={1024}
                 height={1024}
                 loading="lazy"
@@ -67,7 +67,7 @@ export function Beyond() {
             <div className="aspect-[16/10] overflow-hidden bg-blush/50">
               <img
                 src={volunteeringImg}
-                alt="Illustration of hands coming together representing collaboration"
+                alt="Volunteering at Uni"
                 width={1024}
                 height={1024}
                 loading="lazy"
