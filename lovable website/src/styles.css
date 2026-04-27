@@ -259,15 +259,22 @@
   }
 
   .contact-coffee {
-    height: 9rem;
-    width: 9rem;
+    height: 12rem;
+    width: 12rem;
   }
 
   @media (min-width: 768px) {
     .contact-coffee {
-      height: 11rem;
-      width: 11rem;
+      height: 14rem;
+      width: 14rem;
     }
+  }
+
+  html,
+  body,
+  a,
+  button {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E") 6 24, auto;
   }
 
   @media (max-width: 767px) {

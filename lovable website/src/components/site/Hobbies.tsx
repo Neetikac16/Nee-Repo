@@ -17,7 +17,7 @@ export function Hobbies() {
   useEffect(() => {
     const timer = window.setInterval(() => {
       setIndex((current) => (current + 1) % galleries.travel.length);
-    }, 3000);
+    }, 6000);
 
     return () => window.clearInterval(timer);
   }, []);
@@ -36,7 +36,7 @@ export function Hobbies() {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[16/10] overflow-hidden bg-sage-soft">
+            <div className="aspect-[4/3] overflow-hidden bg-sage-soft">
               <img
                 src={galleries.travel[index]}
                 alt="Travel gallery"
@@ -51,17 +51,16 @@ export function Hobbies() {
                 Travel
               </p>
               <h3 className="mt-3 font-serif text-2xl text-ink md:text-3xl">
-                Japan, Melbourne, and curious detours
+                Travel
               </h3>
               <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
-                Travel keeps me observant: how people move through places, how systems work
-                in the background, and what changes when context changes.
+                Travel feels stimulating and exciting.
               </p>
             </div>
           </article>
 
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[16/10] overflow-hidden bg-blush/50">
+            <div className="aspect-[4/3] overflow-hidden bg-blush/50">
               <img
                 src={galleries.art[index]}
                 alt="Art gallery"
@@ -76,11 +75,10 @@ export function Hobbies() {
                 Art
               </p>
               <h3 className="mt-3 font-serif text-2xl text-ink md:text-3xl">
-                Visual thinking, made tangible
+                Art
               </h3>
               <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
-                Art helps me think in patterns, composition, and clarity, which quietly
-                shapes the way I design workflows and presentations.
+                Art feels calming and grounding.
               </p>
             </div>
           </article>

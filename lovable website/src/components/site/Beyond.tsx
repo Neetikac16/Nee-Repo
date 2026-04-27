@@ -1,4 +1,7 @@
+import { useEffect, useState } from "react";
 import achievementImg from "@/assets/erpsim.jpg";
+import tborationImg from "@/assets/tboration.jpg";
+import placementCellImg from "@/assets/placementcell.jpg";
 import volunteeringImg from "@/assets/volunteering.jpg";
 
 const achievements = [
@@ -13,7 +16,19 @@ const beyond = [
   "That shows up in my delivery style: clear documentation, calm coordination, and a bias toward tools that are people-friendly.",
 ];
 
+const achievementImages = [achievementImg, tborationImg, placementCellImg];
+
 export function Beyond() {
+  const [achievementIndex, setAchievementIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setAchievementIndex((current) => (current + 1) % achievementImages.length);
+    }, 6000);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
   return (
     <section id="beyond" className="relative bg-paper py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
@@ -33,7 +48,7 @@ export function Beyond() {
           >
             <div className="aspect-[16/10] overflow-hidden bg-butter">
               <img
-                src={achievementImg}
+                src={achievementImages[achievementIndex]}
                 alt="ERPSim competition"
                 width={1024}
                 height={1024}

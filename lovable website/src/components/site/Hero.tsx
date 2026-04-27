@@ -59,7 +59,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap gap-3">
             <a
               href="#contact"
-              className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-canvas transition-transform hover:scale-105"
+              className="rounded-full bg-terracotta px-6 py-3 text-sm font-semibold text-terracotta-foreground transition-transform hover:scale-105"
             >
               Say Hi!
             </a>
@@ -91,9 +91,9 @@ export function Hero() {
               </p>
             </div>
             <div className="absolute -top-6 -right-4 rotate-[6deg] rounded-2xl bg-butter px-4 py-3 shadow-soft">
-              <p className="font-serif text-2xl text-ink"> From 2 days</p>
+              <p className="font-serif text-2xl text-ink">Curious, structured</p>
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink/60">
-                to 6 hours
+                calm in ambiguity
               </p>
             </div>
           </div>

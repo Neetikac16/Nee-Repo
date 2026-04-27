@@ -101,7 +101,7 @@ export function Projects() {
               Selected work
             </span>
             <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl lg:text-6xl">
-              Proof I can turn <em className="text-sage">operations into delivery plans</em>.
+              Proof I can turn <em className="text-sage">operations into functional solutions</em>.
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-ink-muted">

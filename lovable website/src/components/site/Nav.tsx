@@ -38,12 +38,6 @@ export function Nav() {
             </a>
           ))}
         </div>
-        <a
-          href="#contact"
-          className="hidden rounded-full bg-ink px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.15em] text-canvas transition-transform hover:scale-105 md:inline-block"
-        >
-          Contact
-        </a>
       </div>
     </nav>
   );
