@@ -19,9 +19,9 @@ export function Hero() {
             <span className="size-1.5 animate-pulse rounded-full bg-sage" />
             PMO for AI and operations transformation
           </span>
-          <h1 className="font-serif text-5xl leading-[1.05] text-balance text-ink md:text-7xl lg:text-[5.5rem]">
+          <h1 className="hero-title font-serif text-5xl leading-[1.05] text-balance text-ink md:text-7xl lg:text-[5.5rem]">
             Turning messy operations into{" "}
-            <span className="italic text-sage">AI-ready, scalable</span> systems.
+            <span className="italic text-sage">AI ready, scalable</span> systems.
           </h1>
           <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-ink-muted md:text-xl">
             Project and operations professional based in Mumbai, working remote/global-first.
@@ -29,7 +29,7 @@ export function Hero() {
             operational ambiguity into delivery plans people can actually adopt.
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-3">
+          <div className="hero-meta mt-10 flex flex-wrap gap-3">
             <div className="rounded-2xl bg-paper px-5 py-3.5">
               <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-ink/40">
                 Previous Role

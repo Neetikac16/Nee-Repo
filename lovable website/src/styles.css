@@ -244,4 +244,52 @@
       transition: none;
     }
   }
+
+  /* Alignment refinements only; visual tokens and component treatments stay unchanged. */
+  .hero-meta {
+    align-items: stretch;
+  }
+
+  .hero-meta > * {
+    min-width: 0;
+  }
+
+  .metric-strip > * {
+    min-width: 0;
+  }
+
+  @media (max-width: 767px) {
+    .hero-title {
+      font-size: clamp(3rem, 9.5vw, 4.2rem);
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .hero-meta > * {
+      width: 100%;
+    }
+
+    .case-card {
+      gap: 2rem;
+    }
+  }
+
+  @media (min-width: 520px) and (max-width: 1023px) {
+    .hero-meta {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero-meta > :last-child {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 519px) {
+    .metric-strip {
+      grid-template-columns: 1fr;
+    }
+  }
 }

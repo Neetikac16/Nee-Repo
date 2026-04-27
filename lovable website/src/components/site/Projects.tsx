@@ -118,7 +118,7 @@ export function Projects() {
               <article
                 key={p.id}
                 data-reveal
-                className="grid grid-cols-1 gap-10 rounded-[2.5rem] bg-paper p-5 md:p-8 lg:grid-cols-12 lg:gap-12"
+                className="case-card grid grid-cols-1 gap-10 rounded-[2.5rem] bg-paper p-5 md:p-8 lg:grid-cols-12 lg:gap-12"
               >
                 <div className={`lg:col-span-5 ${i % 2 === 1 ? "lg:order-2" : ""}`}>
                   <div className={`relative overflow-hidden rounded-[2.5rem] ${p.imageBg} p-6 md:p-10`}>
@@ -137,7 +137,7 @@ export function Projects() {
                     </span>
                   </div>
 
-                  <div className="mt-6 grid grid-cols-3 gap-3">
+                  <div className="metric-strip mt-6 grid grid-cols-3 gap-3">
                     {p.metrics.map((m) => (
                       <div key={m.label} className="rounded-2xl bg-canvas p-4 text-center">
                         <p className="font-serif text-lg leading-tight text-ink md:text-xl">
@@ -245,7 +245,7 @@ export function Projects() {
               <p className="mt-5 text-[15px] leading-relaxed text-ink/85 md:text-base">
                 {moreProject.body}
               </p>
-              <div className="mt-6 grid grid-cols-3 gap-3">
+              <div className="metric-strip mt-6 grid grid-cols-3 gap-3">
                 {moreProject.metrics.map((m) => (
                   <div key={m.label} className="rounded-2xl bg-paper p-4 text-center">
                     <p className="font-serif text-lg leading-tight text-ink md:text-xl">
