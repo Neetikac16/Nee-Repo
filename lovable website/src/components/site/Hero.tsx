@@ -17,16 +17,16 @@ export function Hero() {
         <div className="lg:col-span-7">
           <span className="mb-6 inline-flex items-center gap-2 rounded-full bg-sage-soft px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-ink/70">
             <span className="size-1.5 animate-pulse rounded-full bg-sage" />
-            Hello, I'm Neetika
+            PMO for AI and operations transformation
           </span>
           <h1 className="font-serif text-5xl leading-[1.05] text-balance text-ink md:text-7xl lg:text-[5.5rem]">
-                           Mapping chaos into{" "}
-            <span className="italic text-sage">intuitive, scalable</span> systems.
+            Turning messy operations into{" "}
+            <span className="italic text-sage">AI-ready, scalable</span> systems.
           </h1>
           <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-ink-muted md:text-xl">
-            Project/Operations Associate based in Mumbai. I take manual business
-            processes and turn them into automations people actually trust, so teams get
-            their time back for the work that matters.
+            Project and operations professional based in Mumbai, working remote/global-first.
+            I help teams map workflows, coordinate AI and automation initiatives, and turn
+            operational ambiguity into delivery plans people can actually adopt.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-3">
@@ -43,7 +43,7 @@ export function Hero() {
                 Open to
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
-                Project Management Roles
+                PMO & Operations Roles
               </p>
             </div>
             <div className="rounded-2xl bg-paper px-5 py-3.5">
@@ -51,25 +51,23 @@ export function Hero() {
                 Toolkit
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
-                Power Query | Apps Script | Process Design
+                AI Use Cases | Automation | Process Design
               </p>
             </div>
           </div>
 
           <div className="mt-10 flex flex-wrap gap-3">
             <a
-              href="#projects"
+              href="#contact"
               className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-canvas transition-transform hover:scale-105"
             >
-              See selected work
+              Contact me
             </a>
             <a
-              href="/Neetika_Chavan_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#projects"
               className="rounded-full border border-ink/15 bg-canvas px-6 py-3 text-sm font-semibold text-ink transition-colors hover:border-terracotta hover:text-terracotta"
             >
-              Download resume ↓
+              View projects
             </a>
           </div>
         </div>
@@ -89,11 +87,11 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-8 -left-6 max-w-[260px] rotate-[-3deg] rounded-3xl bg-terracotta p-5 text-terracotta-foreground shadow-warm">
               <p className="font-serif text-base italic leading-snug">
-                ""
+                Remote/global-first + Mumbai, India
               </p>
             </div>
             <div className="absolute -top-6 -right-4 rotate-[6deg] rounded-2xl bg-butter px-4 py-3 shadow-soft">
-              <p className="font-serif text-2xl text-ink"> From 2 days </p>
+              <p className="font-serif text-2xl text-ink"> From 2 days</p>
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink/60">
                 to 6 hours
               </p>

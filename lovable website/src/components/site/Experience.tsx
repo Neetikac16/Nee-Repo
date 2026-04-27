@@ -5,11 +5,11 @@ const roles = [
     location: "Mumbai, India",
     period: "Aug 2025 to Present",
     points: [
-      "Automated GST 2B reconciliation (300 to 600 invoices/month), cutting processing time from 2 days to 6 hours",
-      "Designed factory job-planning automation projected to save 2+ hours daily and improve production turnaround",
-      "Drafted ISO and ESG-aligned OHS policy for audit readiness",
+      "Coordinated finance and operations stakeholders to automate GST 2B reconciliation for 500 to 1,000 invoices/month, reducing processing time from 2 days to 6 hours",
+      "Supported factory job-planning automation by clarifying business rules, reviewing edge cases, and building controls for reliable adoption",
+      "Drafted ISO and ESG-aligned OHS policy documentation for audit readiness and process governance",
       "Led enterprise risk assessments across IT, vendors, infrastructure, and data assets",
-      "Trained 50 employees in structured communication and digital literacy",
+      "Trained 50 employees in structured communication and digital literacy to improve process adoption",
     ],
     active: true,
   },
@@ -19,9 +19,9 @@ const roles = [
     location: "Melbourne, Australia",
     period: "Feb 2024 to Dec 2024",
     points: [
-      "Led Monday.com implementation to streamline cross-functional coordination",
-      "Designed LMS onboarding modules to standardize compliance processes",
-      "Mapped and analyzed operational workflows to identify improvement opportunities",
+      "Led Monday.com implementation planning to streamline cross-functional coordination and visibility",
+      "Designed LMS onboarding modules to standardize compliance processes and improve user adoption",
+      "Mapped operational workflows, documented pain points, and translated findings into improvement recommendations",
     ],
   },
   {
@@ -30,7 +30,7 @@ const roles = [
     location: "Melbourne, Australia",
     period: "Dec 2023 to Feb 2024",
     points: [
-      "Evaluated internal innovation proposals and developed structured automation recommendations",
+      "Evaluated internal innovation proposals and developed structured recommendations for automation opportunities",
     ],
   },
   {
@@ -39,8 +39,8 @@ const roles = [
     location: "Mumbai, India",
     period: "Jan 2021 to Oct 2021",
     points: [
-      "Led requirement gathering and roadmap planning for digital products",
-      "Designed UI wireframes for 7 websites and 5 mobile apps",
+      "Led requirement gathering, stakeholder coordination, and roadmap planning for digital products",
+      "Designed UI wireframes for 7 websites and 5 mobile apps, translating business needs into implementation-ready flows",
     ],
   },
 ];
@@ -55,11 +55,11 @@ export function Experience() {
               The journey
             </span>
             <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-              A timeline of <em className="text-sage">curious detours</em> and quiet wins.
+              PMO instincts, <em className="text-sage">operations depth</em>, and delivery follow-through.
             </h2>
             <p className="mt-6 max-w-md text-base leading-relaxed text-ink-muted">
-              Four roles, three countries, and one thread holding it together: making
-              operations work better for the people inside them.
+              My work has moved across operations, business analysis, innovation, and digital
+              delivery, with one thread holding it together: making change structured enough to stick.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export function Experience() {
                       <div>
                         <h3 className="font-serif text-2xl text-ink md:text-3xl">{r.role}</h3>
                         <p className="mt-1 text-sm text-ink-muted">
-                          {r.company} · {r.location}
+                          {r.company} | {r.location}
                         </p>
                       </div>
                       <span className="rounded-full bg-paper px-3 py-1 text-xs font-medium tabular-nums text-ink/70">

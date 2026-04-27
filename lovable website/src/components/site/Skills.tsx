@@ -1,17 +1,24 @@
 const groups = [
   {
-    title: "Process & Strategy",
-    items: ["Process Mapping", "Risk Assessment", "ISO / ESG Exposure", "Stakeholder Management"],
+    title: "Practical AI Fluency",
+    items: [
+      "AI Use-Case Research",
+      "Workflow Diagnostics",
+      "Copilot Testing",
+      "AI Adoption Planning",
+      "Automation Opportunity Mapping",
+      "Change Management Support",
+    ],
     tone: "bg-sage-soft",
   },
   {
-    title: "Automation & Data",
-    items: ["Power Query", "Power BI", "Advanced Excel", "Google Apps Script", "Microsoft Visio"],
+    title: "Process & PMO",
+    items: ["Process Mapping", "Risk Assessment", "Stakeholder Management", "Documentation", "Requirement Gathering"],
     tone: "bg-butter",
   },
   {
-    title: "Project Tools",
-    items: ["Monday.com", "Notion", "ClickUp", "Trello"],
+    title: "Automation & Tools",
+    items: ["Power Query", "Power BI", "Advanced Excel", "Google Apps Script", "Microsoft Visio", "Monday.com"],
     tone: "bg-blush/60",
   },
 ];
@@ -40,7 +47,7 @@ export function Skills() {
             The toolkit
           </span>
           <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-            What I bring to the <em className="text-sage">whiteboard</em>.
+            Built for <em className="text-sage">AI-aware operations delivery</em>.
           </h2>
         </div>
 
@@ -76,7 +83,7 @@ export function Skills() {
               </p>
               <h4 className="mt-3 font-serif text-xl text-ink">{e.degree}</h4>
               <p className="mt-1 text-sm text-ink-muted">
-                {e.school} · {e.location}
+                {e.school} | {e.location}
               </p>
               <p className="mt-3 text-xs font-medium tabular-nums text-ink/55">{e.year}</p>
             </div>

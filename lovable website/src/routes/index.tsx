@@ -2,12 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useReveal } from "@/hooks/use-reveal";
 import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
-import { About } from "@/components/site/About";
 import { Experience } from "@/components/site/Experience";
 import { Projects } from "@/components/site/Projects";
 import { Skills } from "@/components/site/Skills";
 import { Beyond } from "@/components/site/Beyond";
-import { Personality } from "@/components/site/Personality";
 import { Contact } from "@/components/site/Contact";
 
 export const Route = createFileRoute("/")({
@@ -21,12 +19,10 @@ function Index() {
       <Nav />
       <main>
         <Hero />
-        <About />
-        <Experience />
         <Projects />
-        <Beyond />
-        <Personality />
+        <Experience />
         <Skills />
+        <Beyond />
         <Contact />
       </main>
     </div>

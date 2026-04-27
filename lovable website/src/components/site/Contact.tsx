@@ -1,6 +1,6 @@
 const linkedInUrl = "https://www.linkedin.com/in/neetika-chavan/";
 const emailAddress = "work.neetika@gmail.com";
-const mailto = `mailto:${emailAddress}?subject=Let%27s%20talk%20about%20a%20role&body=Hi%20Neetika%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat.%0A%0A`;
+const mailto = `mailto:${emailAddress}?subject=PMO%20%2F%20AI%20deployment%20role&body=Hi%20Neetika%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat.%0A%0A`;
 
 export function Contact() {
   return (
@@ -10,23 +10,23 @@ export function Contact() {
           data-reveal
           className="mb-6 inline-block font-serif text-2xl italic text-terracotta"
         >
-          Ready for the next chapter?
+          Open to remote/global-first opportunities
         </span>
         <h2
           data-reveal
           style={{ transitionDelay: "80ms" }}
           className="font-serif text-5xl leading-[1.05] text-ink md:text-7xl"
         >
-          Let's talk business{" "}
-          <span className="italic text-sage">over coffee.</span>
+          Let's talk about{" "}
+          <span className="italic text-sage">AI-ready operations.</span>
         </h2>
         <p
           data-reveal
           style={{ transitionDelay: "160ms" }}
           className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-muted"
         >
-          I'm currently exploring project management roles. If you're building something
-          that needs careful operators and clear systems, I'd love to hear about it.
+          I am exploring PMO, project coordination, and operations roles where AI,
+          automation, and practical change management are part of the work.
         </p>
 
         {/* Dual CTA */}
@@ -39,10 +39,9 @@ export function Contact() {
             href={mailto}
             className="group inline-flex items-center gap-3 rounded-full bg-ink px-8 py-4 font-serif text-lg text-canvas shadow-warm transition-transform hover:scale-105 md:text-xl"
           >
-            <span aria-hidden>✉️</span>
             <span>Email me</span>
             <span className="text-sm font-sans opacity-70 transition-transform group-hover:translate-x-1">
-              →
+              -&gt;
             </span>
           </a>
           <a
@@ -54,7 +53,7 @@ export function Contact() {
             <span aria-hidden>in</span>
             <span>Connect on LinkedIn</span>
             <span className="text-sm font-sans opacity-70 transition-transform group-hover:translate-x-1">
-              ↗
+              -&gt;
             </span>
           </a>
         </div>
@@ -71,7 +70,7 @@ export function Contact() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-ink/10 pt-10 text-sm md:flex-row">
           <p className="text-xs uppercase tracking-[0.2em] text-ink/40">
-            Mumbai, India · Open to relocate
+            Remote/global-first + Mumbai, India
           </p>
           <div className="flex gap-6">
             <a
@@ -94,11 +93,11 @@ export function Contact() {
               rel="noopener noreferrer"
               className="text-xs font-semibold uppercase tracking-[0.18em] text-ink/70 transition-colors hover:text-terracotta"
             >
-              Résumé
+              Resume
             </a>
           </div>
           <p className="text-xs uppercase tracking-[0.2em] text-ink/40">
-            © {new Date().getFullYear()} Neetika Chavan
+            (c) {new Date().getFullYear()} Neetika Chavan
           </p>
         </div>
       </div>

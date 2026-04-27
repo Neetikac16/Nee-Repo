@@ -2,11 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
-  { href: "#beyond", label: "Beyond" },
+  { href: "#experience", label: "Experience" },
   { href: "#skills", label: "Skills" },
+  { href: "#beyond", label: "Beyond" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -43,7 +42,7 @@ export function Nav() {
           href="#contact"
           className="hidden rounded-full bg-ink px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.15em] text-canvas transition-transform hover:scale-105 md:inline-block"
         >
-          Say hi
+          Contact
         </a>
       </div>
     </nav>
