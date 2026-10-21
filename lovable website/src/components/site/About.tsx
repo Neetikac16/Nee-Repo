@@ -22,7 +22,7 @@ export function About() {
               The short version
             </span>
             <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-              I like systems that <em className="text-sage">hum quietly</em> in the background.
+              I like systems that <em className="text-sage">work quietly</em> in the background.
             </h2>
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-ink-muted lg:col-span-7" data-reveal style={{ transitionDelay: "120ms" }}>
@@ -38,7 +38,7 @@ export function About() {
             </p>
             <p>
               When I'm not untangling a process, I'm probably training a team on it, or
-              writing the documentation no one else wanted to write.
+              writing the documentation.
             </p>
           </div>
         </div>

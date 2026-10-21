@@ -57,5 +57,5 @@ document.querySelectorAll("[data-gallery]").forEach((image) => {
   setInterval(() => {
     index = (index + 1) % images.length;
     image.src = images[index];
-  }, 6000);
+  }, 5000);
 });

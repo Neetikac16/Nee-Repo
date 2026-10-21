@@ -1,15 +1,15 @@
 const roles = [
   {
-    company: "PrintStop India Pvt Ltd",
+    company: "PrintStop",
     role: "Management Associate",
     location: "Mumbai, India",
-    period: "Aug 2025 to Present",
+    period: "Aug 2025 to Mar 2026",
     points: [
-      "Coordinated finance and operations stakeholders to automate GST 2B reconciliation for 500 to 1,000 invoices/month, reducing processing time from 2 days to 6 hours",
-      "Supported factory job-planning automation by clarifying business rules, reviewing edge cases, and building controls for reliable adoption",
-      "Drafted ISO and ESG-aligned OHS policy documentation for audit readiness and process governance",
-      "Led enterprise risk assessments across IT, vendors, infrastructure, and data assets",
-      "Trained 50 employees in structured communication and digital literacy to improve process adoption",
+      "Automated financial data reconciliation using Excel Power Query, processing 500–800 invoices monthly and reducing processing time from 2 days to 6 hours.",
+      "Designed a production planning workflow projected to save 2+ hours daily and improve scheduling efficiency and production turnaround.",
+      "Implemented a product price-tracking tool to support data-driven pricing decisions across a portfolio of 1,400+ products.",
+      "Conducted operational risk assessments covering IT systems, third-party vendors, infrastructure, and data assets.",
+      "Developed an occupational health and safety policy aligned with international standards and sustainability frameworks, and delivered training to 50+ employees.",
     ],
     active: true,
   },
@@ -19,9 +19,19 @@ const roles = [
     location: "Melbourne, Australia",
     period: "Feb 2024 to Dec 2024",
     points: [
-      "Led Monday.com implementation planning to streamline cross-functional coordination and visibility",
-      "Designed LMS onboarding modules to standardize compliance processes and improve user adoption",
-      "Mapped operational workflows, documented pain points, and translated findings into improvement recommendations",
+      "Led the end-to-end implementation of Monday.com to improve cross-functional project coordination and workflow visibility.",
+      "Designed and developed digital learning modules to standardize onboarding and compliance processes.",
+      "Mapped and analyzed operational workflows to identify process gaps and opportunities for improvement.",
+    ],
+  },
+  {
+    company: "Astris Advisory",
+    role: "Consultant",
+    location: "Tokyo, Japan",
+    period: "June 2024 to July 2024",
+    points: [
+      "Conducted detailed analysis across 9 Microsoft Copilot use cases, evaluating opportunities to improve productivity and automate business workflows.",
+      "Translated business requirements into practical AI and automation opportunities, supporting technology evaluation and implementation planning.",
     ],
   },
   {
@@ -30,17 +40,17 @@ const roles = [
     location: "Melbourne, Australia",
     period: "Dec 2023 to Feb 2024",
     points: [
-      "Evaluated internal innovation proposals and developed structured recommendations for automation opportunities",
+      "Evaluated internal innovation proposals and developed structured automation recommendations to address business needs and improve operational efficiency.",
     ],
   },
   {
-    company: "Innovizia Technologies Pvt. Ltd.",
+    company: "Innovizia Technologies",
     role: "Project Manager",
     location: "Mumbai, India",
     period: "Jan 2021 to Oct 2021",
     points: [
-      "Led requirement gathering, stakeholder coordination, and roadmap planning for digital products",
-      "Designed UI wireframes for 7 websites and 5 mobile apps, translating business needs into implementation-ready flows",
+      "Led requirements gathering and product roadmap planning for digital products.",
+      "Designed user interface wireframes for 7 websites and 5 mobile applications, translating business requirements into product concepts.",
     ],
   },
 ];
@@ -55,7 +65,7 @@ export function Experience() {
               The journey
             </span>
             <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-              PMO instincts, <em className="text-sage">operations depth</em>, and delivery follow-through.
+              Structured AI delivery, <em className="text-sage">grounded in how work actually happens</em>.
             </h2>
             <p className="mt-6 max-w-md text-base leading-relaxed text-ink-muted">
               My work has moved across operations, business analysis, innovation, and digital

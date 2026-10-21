@@ -29,25 +29,23 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Neetika Chavan · Management Associate" },
+      { title: "Neetika Chavan | AI Operations & Program Delivery" },
       {
         name: "description",
         content:
-          "Neetika Chavan, Management Associate based in Mumbai. I turn manual finance and operations processes into automation people actually trust.",
+          "Neetika Chavan helps teams structure AI and operations initiatives through workflow analysis, risk assessment, automation, and cross-functional delivery.",
       },
       { name: "author", content: "Neetika Chavan" },
-      { property: "og:title", content: "Neetika Chavan · Management Associate" },
+      { property: "og:title", content: "Neetika Chavan | AI Operations & Program Delivery" },
       {
         property: "og:description",
         content:
-          "Mapping operational chaos into calm, scalable systems. Project management, automation, and process improvement.",
+          "Neetika Chavan helps teams structure AI and operations initiatives through workflow analysis, risk assessment, automation, and cross-functional delivery.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Neetika Chavan · Management Associate" },
-      { name: "description", content: "A dynamic personal portfolio showcasing a management associate's resume, skills, and project experience." },
-      { property: "og:description", content: "A dynamic personal portfolio showcasing a management associate's resume, skills, and project experience." },
-      { name: "twitter:description", content: "A dynamic personal portfolio showcasing a management associate's resume, skills, and project experience." },
+      { name: "twitter:title", content: "Neetika Chavan | AI Operations & Program Delivery" },
+      { name: "twitter:description", content: "Neetika Chavan helps teams structure AI and operations initiatives through workflow analysis, risk assessment, automation, and cross-functional delivery." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae7d4911-aa61-4f47-ab42-3e1fe6c8ad4f/id-preview-da7172d0--03bb56cd-b73c-4f36-a38c-859b49869169.lovable.app-1776781331231.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae7d4911-aa61-4f47-ab42-3e1fe6c8ad4f/id-preview-da7172d0--03bb56cd-b73c-4f36-a38c-859b49869169.lovable.app-1776781331231.png" },
     ],

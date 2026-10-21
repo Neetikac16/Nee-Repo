@@ -17,25 +17,25 @@ export function Hero() {
         <div className="lg:col-span-7">
           <span className="mb-6 inline-flex items-center gap-2 rounded-full bg-sage-soft px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-ink/70">
             <span className="size-1.5 animate-pulse rounded-full bg-sage" />
-            PMO for AI and operations transformation
+            AI programs, operations & delivery
           </span>
           <h1 className="hero-title font-serif text-5xl leading-[1.05] text-balance text-ink md:text-7xl lg:text-[5.5rem]">
-            Turning messy operations into{" "}
-            <span className="italic text-sage">AI ready, scalable</span> systems.
+            Moving AI from promising use cases to{" "}
+            <span className="italic text-sage">reliable operations.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-ink-muted md:text-xl">
-            Project and operations professional based in Mumbai, working remote/global-first.
-            I help teams map workflows, coordinate AI and automation initiatives, and turn
-            operational ambiguity into functional processes people can actually adopt.
+            I bring structure to AI and operations initiatives: mapping how teams actually work,
+            surfacing risks and edge cases, and coordinating the requirements, controls, and
+            stakeholders that help new tools work reliably in practice.
           </p>
 
           <div className="hero-meta mt-10 flex flex-wrap gap-3">
             <div className="rounded-2xl bg-paper px-5 py-3.5">
               <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-ink/40">
-                Previous Role
+                Recent experience
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
-                Management Associate | PrintStop India
+                Management Associate | PrintStop
               </p>
             </div>
             <div className="rounded-2xl bg-paper px-5 py-3.5">
@@ -43,7 +43,7 @@ export function Hero() {
                 Open to
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
-                PMO & Operations Roles
+                AI Delivery & Operations
               </p>
             </div>
             <div className="rounded-2xl bg-paper px-5 py-3.5">
@@ -51,7 +51,7 @@ export function Hero() {
                 Niche
               </p>
               <p className="mt-1 text-sm font-medium text-ink">
-                AI Use Cases | Automation | Process Design
+                Workflow Analysis | Risk | Automation
               </p>
             </div>
           </div>
@@ -91,9 +91,8 @@ export function Hero() {
               </p>
             </div>
             <div className="absolute -top-6 -right-4 rotate-[6deg] rounded-2xl bg-butter px-4 py-3 shadow-soft">
-              <p className="font-serif text-2xl text-ink">Curious, structured</p>
-              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink/60">
-                calm in ambiguity
+              <p className="font-serif text-2xl text-ink">
+                Curious, practical and structured
               </p>
             </div>
           </div>

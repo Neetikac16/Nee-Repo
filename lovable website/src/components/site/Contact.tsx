@@ -49,6 +49,8 @@ export function Contact() {
         >
           <a
             href={mailto}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 rounded-full bg-ink px-8 py-4 font-serif text-lg text-canvas shadow-warm transition-transform hover:scale-105 md:text-xl"
           >
             <span>Email me</span>

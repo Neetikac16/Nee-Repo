@@ -42,8 +42,8 @@ const projects: Project[] = [
     outcome:
       "Delivered a structured AI transformation proposal that translated a broad ambition into practical workstreams, adoption risks, implementation phases, and business-ready recommendations.",
     metrics: [
-      { value: "3 divisions", label: "workflow scope" },
-      { value: "6 phases", label: "roadmap logic" },
+      { value: "3 divisions", label: "reformed" },
+      { value: "6 phase", label: "roadmap logic" },
       { value: "Copilot", label: "solution stream led" },
     ],
   },
@@ -57,7 +57,7 @@ const projects: Project[] = [
     imageAlt: "Illustration of invoices, calculator and spreadsheet flowing through a workflow",
     imageBg: "bg-sage-soft",
     context:
-      "At PrintStop, the finance team's monthly GST reconciliation was manual, spreadsheet-heavy, and error-prone, creating delays during filing cycles. Monthly invoice volumes ranged from 500 to 1,000.",
+      "At PrintStop, the finance team's monthly goods and services tax (GST) reconciliation was manual, spreadsheet-heavy, and error-prone, creating delays during filing cycles. Monthly invoice volumes ranged from 500 to 1,000.",
     role:
       "Improve speed, accuracy, and repeatability while creating a workflow the finance team could trust and continue using without constant hand-holding.",
     approach: [

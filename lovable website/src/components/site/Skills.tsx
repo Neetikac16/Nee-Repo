@@ -1,25 +1,31 @@
 const groups = [
   {
-    title: "Practical AI Fluency",
+    title: "Data & Automation",
     items: [
-      "AI Use-Case Research",
-      "Workflow Diagnostics",
-      "Copilot Testing",
-      "AI Adoption Planning",
-      "Automation Opportunity Mapping",
-      "Change Management Support",
+      "Excel",
+      "Power Query",
+      "Google Apps Script",
+      "Claude Code",
+      "Codex",
+      "Power BI",
+      "Microsoft Power Apps",
     ],
     tone: "bg-sage-soft",
   },
   {
-    title: "Process & PMO",
-    items: ["Process Mapping", "Risk Assessment", "Stakeholder Management", "Documentation", "Requirement Gathering"],
+    title: "Product & Workflow Management",
+    items: ["Monday.com", "Notion", "ClickUp", "Trello", "Microsoft Visio"],
     tone: "bg-butter",
   },
   {
-    title: "Automation & Tools",
-    items: ["Power Query", "Power BI", "Advanced Excel", "Google Apps Script", "Microsoft Visio", "Monday.com"],
+    title: "Business Analysis",
+    items: ["Requirements Gathering", "Process Mapping", "Workflow Analysis", "Operational Risk Assessment"],
     tone: "bg-blush/60",
+  },
+  {
+    title: "Additional",
+    items: ["AI Use-Case Evaluation", "Occupational Health and Safety", "Compliance Frameworks", "Microsoft Copilot Evaluation"],
+    tone: "bg-terracotta/15",
   },
 ];
 
@@ -51,7 +57,7 @@ export function Skills() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
           {groups.map((g, i) => (
             <div
               key={g.title}
@@ -92,7 +98,7 @@ export function Skills() {
             <p className="text-[11px] font-semibold uppercase tracking-[0.18em] opacity-80">
               Leadership
             </p>
-            <h4 className="mt-3 font-serif text-xl">President, Placement Cell</h4>
+            <h4 className="mt-3 font-serif text-xl">President, Student Careers Committee</h4>
             <p className="mt-2 text-sm leading-relaxed opacity-90">
               Led a 40-member team across 2 campus recruitment events with 50+ companies
               and 1,000+ students.

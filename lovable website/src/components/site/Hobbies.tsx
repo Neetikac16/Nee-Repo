@@ -17,7 +17,7 @@ export function Hobbies() {
   useEffect(() => {
     const timer = window.setInterval(() => {
       setIndex((current) => (current + 1) % galleries.travel.length);
-    }, 6000);
+    }, 5000);
 
     return () => window.clearInterval(timer);
   }, []);
@@ -36,7 +36,7 @@ export function Hobbies() {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[4/3] overflow-hidden bg-sage-soft">
+            <div className="aspect-[16/10] overflow-hidden bg-sage-soft">
               <img
                 src={galleries.travel[index]}
                 alt="Travel gallery"
@@ -60,7 +60,7 @@ export function Hobbies() {
           </article>
 
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[4/3] overflow-hidden bg-blush/50">
+            <div className="aspect-[16/10] overflow-hidden bg-blush/50">
               <img
                 src={galleries.art[index]}
                 alt="Art gallery"

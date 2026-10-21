@@ -5,7 +5,7 @@ import placementCellImg from "@/assets/placementcell.jpg";
 import volunteeringImg from "@/assets/volunteering.jpg";
 
 const achievements = [
-  "President of the Placement Cell, leading a 40-member team across 2 campus recruitment events with 50+ companies and 1,000+ students.",
+  "President of the Student Careers Committee, leading a 40-member team across 2 campus recruitment events with 50+ companies and 1,000+ students.",
   "Second Prize in SAP's ERPSim Lab Student Competition 2023",
   "Speaker at the Tuberculosis Oration 2026",
 ];
@@ -24,7 +24,7 @@ export function Beyond() {
   useEffect(() => {
     const timer = window.setInterval(() => {
       setAchievementIndex((current) => (current + 1) % achievementImages.length);
-    }, 6000);
+    }, 5000);
 
     return () => window.clearInterval(timer);
   }, []);
@@ -37,7 +37,7 @@ export function Beyond() {
             Beyond the role
           </span>
           <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-            Leadership, learning, and the <em className="text-sage">human side</em> of change.
+            Leadership, learning, and the <em className="text-sage">human side...</em>
           </h2>
         </div>
 
