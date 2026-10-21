@@ -1,20 +1,54 @@
 import { useEffect, useState } from "react";
 import japanImg from "@/assets/japan.jpg";
+import japanSecondImg from "@/assets/japan 2.jpg";
+import japanThirdImg from "@/assets/japan 3.jpg";
 import melbourneImg from "@/assets/melbourne.jpg";
 import travelImg from "@/assets/travel.jpg";
 import baliImg from "@/assets/bali.jpg";
 import baliSecondImg from "@/assets/bali 2.jpg";
+import baliThirdImg from "@/assets/bali 3.jpg";
 import bangkokImg from "@/assets/bangkok.jpg";
 import bangkokSecondImg from "@/assets/bangkok 2.jpg";
+import vietnamImg from "@/assets/vietnam.jpg";
+import vietnamSecondImg from "@/assets/vietnam 2.jpg";
+import vietnamThirdImg from "@/assets/vietnam 3.jpg";
 import art1Img from "@/assets/Art 1.png";
 import art2Img from "@/assets/Art 2.png";
 import art3Img from "@/assets/Art 3.png";
 
 const galleries = {
-  travel: [japanImg, melbourneImg, travelImg, baliImg, baliSecondImg, bangkokImg, bangkokSecondImg],
+  travel: [
+    japanImg,
+    japanSecondImg,
+    japanThirdImg,
+    melbourneImg,
+    travelImg,
+    baliImg,
+    baliSecondImg,
+    baliThirdImg,
+    bangkokImg,
+    bangkokSecondImg,
+    vietnamImg,
+    vietnamSecondImg,
+    vietnamThirdImg,
+  ],
   art: [art1Img, art2Img, art3Img],
 };
-const travelPlaces = ["Japan", "Melbourne, Victoria", "Travel moments", "Bali", "Bali", "Bangkok", "Bangkok"];
+const travelPlaces = [
+  "Japan",
+  "Japan",
+  "Japan",
+  "Melbourne, Victoria",
+  "Travel moments",
+  "Bali",
+  "Bali",
+  "Bali",
+  "Bangkok",
+  "Bangkok",
+  "Vietnam",
+  "Vietnam",
+  "Vietnam",
+];
 
 export function Hobbies() {
   const [index, setIndex] = useState(0);

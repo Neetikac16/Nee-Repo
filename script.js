@@ -46,16 +46,36 @@ const galleries = {
   achievements: ["./assets/erpsim.jpg", "./assets/tboration.jpg", "./assets/placementcell.jpg"],
   travel: [
     "./assets/japan.jpg",
+    "./assets/japan 2.jpg",
+    "./assets/japan 3.jpg",
     "./assets/melbourne.jpg",
     "./assets/travel.jpg",
     "./assets/bali.jpg",
     "./assets/bali 2.jpg",
+    "./assets/bali 3.jpg",
     "./assets/bangkok.jpg",
     "./assets/bangkok 2.jpg",
+    "./assets/vietnam.jpg",
+    "./assets/vietnam 2.jpg",
+    "./assets/vietnam 3.jpg",
   ],
   art: ["./assets/Art 1.png", "./assets/Art 2.png", "./assets/Art 3.png"],
 };
-const travelPlaces = ["Japan", "Melbourne, Victoria", "Travel moments", "Bali", "Bali", "Bangkok", "Bangkok"];
+const travelPlaces = [
+  "Japan",
+  "Japan",
+  "Japan",
+  "Melbourne, Victoria",
+  "Travel moments",
+  "Bali",
+  "Bali",
+  "Bali",
+  "Bangkok",
+  "Bangkok",
+  "Vietnam",
+  "Vietnam",
+  "Vietnam",
+];
 
 document.querySelectorAll("[data-gallery]").forEach((image) => {
   const galleryName = image.getAttribute("data-gallery");
