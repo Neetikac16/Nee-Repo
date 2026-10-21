@@ -44,9 +44,38 @@ document.querySelectorAll("[data-case-toggle]").forEach((button) => {
 
 const galleries = {
   achievements: ["./assets/erpsim.jpg", "./assets/tboration.jpg", "./assets/placementcell.jpg"],
-  travel: ["./assets/japan.jpg", "./assets/melbourne.jpg", "./assets/travel.jpg"],
+  travel: [
+    "./assets/japan.jpg",
+    "./assets/japan 2.jpg",
+    "./assets/japan 3.jpg",
+    "./assets/melbourne.jpg",
+    "./assets/travel.jpg",
+    "./assets/bali.jpg",
+    "./assets/bali 2.jpg",
+    "./assets/bali 3.jpg",
+    "./assets/bangkok.jpg",
+    "./assets/bangkok 2.jpg",
+    "./assets/vietnam.jpg",
+    "./assets/vietnam 2.jpg",
+    "./assets/vietnam 3.jpg",
+  ],
   art: ["./assets/Art 1.png", "./assets/Art 2.png", "./assets/Art 3.png"],
 };
+const travelPlaces = [
+  "Japan",
+  "Japan",
+  "Japan",
+  "Melbourne, Victoria",
+  "Travel moments",
+  "Bali",
+  "Bali",
+  "Bali",
+  "Bangkok",
+  "Bangkok",
+  "Vietnam",
+  "Vietnam",
+  "Vietnam",
+];
 
 document.querySelectorAll("[data-gallery]").forEach((image) => {
   const galleryName = image.getAttribute("data-gallery");
@@ -54,8 +83,14 @@ document.querySelectorAll("[data-gallery]").forEach((image) => {
   if (!images || images.length < 2) return;
 
   let index = Math.max(0, images.indexOf(image.getAttribute("src") || ""));
+  const caption = galleryName === "travel" ? document.querySelector("[data-gallery-caption='travel']") : null;
+  if (caption) caption.textContent = travelPlaces[index];
   setInterval(() => {
     index = (index + 1) % images.length;
     image.src = images[index];
+    if (caption) {
+      caption.textContent = travelPlaces[index];
+      image.alt = `Travel photo: ${travelPlaces[index]}`;
+    }
   }, 5000);
 });
