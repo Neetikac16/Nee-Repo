@@ -63,7 +63,7 @@ export function Skills() {
               key={g.title}
               data-reveal
               style={{ transitionDelay: `${i * 100}ms` }}
-              className={`rounded-3xl ${g.tone} p-7 transition-transform hover:-translate-y-1`}
+              className={`flex flex-col rounded-3xl ${g.tone} p-6 transition-transform hover:-translate-y-1 md:p-7`}
             >
               <h3 className="font-serif text-xl text-ink">{g.title}</h3>
               <div className="mt-5 flex flex-wrap gap-2">

@@ -24,9 +24,11 @@ export function Hero() {
             <span className="italic text-sage">reliable operations.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-ink-muted md:text-xl">
-            I bring structure to AI and operations initiatives: mapping how teams actually work,
-            surfacing risks and edge cases, and coordinating the requirements, controls, and
-            stakeholders that help new tools work reliably in practice.
+            I enjoy figuring out where work gets tangled and helping teams make it run better.
+            Across manufacturing, education, and consulting, I’ve worked on process improvements,
+            product delivery, and automations that turn operational headaches into clear, usable
+            workflows. I’m especially curious about making AI products dependable and genuinely
+            useful to the people using them.
           </p>
 
           <div className="hero-meta mt-10 flex flex-wrap gap-3">

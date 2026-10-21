@@ -38,7 +38,7 @@ export function Contact() {
           className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-muted"
         >
           I am exploring PMO, project coordination, and operations roles where AI,
-          automation, and practical change management are part of the work.
+          automation, and practical change management are a major part of the role.
         </p>
 
         {/* Dual CTA */}

@@ -1,6 +1,6 @@
 const stats = [
   { value: "2 days to 6 hrs", label: "GST recon time", tone: "butter" },
-  { value: "2+ hrs/day", label: "Saved at the factory", tone: "sage" },
+  { value: "2+ hrs/day", label: "Saved in production", tone: "sage" },
   { value: "50 people", label: "Trained & upskilled", tone: "blush" },
   { value: "3 countries", label: "Worked across", tone: "terracotta" },
 ] as const;

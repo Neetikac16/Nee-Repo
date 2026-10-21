@@ -77,15 +77,15 @@ const projects: Project[] = [
 ];
 
 const moreProject = {
-  tags: ["Google Apps Script", "Factory Operations", "Controls"],
-  title: "Factory Planner Dashboard",
+  tags: ["Google Apps Script", "Production Operations", "Controls"],
+  title: "Production Planning Dashboard",
   hook: "A reliability and stakeholder-trust story for station-level planning.",
   body:
-    "Built around a complex factory planning spreadsheet, this automation needed to be trusted by the team using it daily. I reviewed edge cases, paused rollout when discrepancies appeared, clarified business rules with stakeholders, added validation and exception flags, and supported a controlled adoption path.",
+    "Built around a complex production planning spreadsheet, this automation needed to be trusted by the team using it daily. I reviewed edge cases, paused rollout when discrepancies appeared, clarified business rules with stakeholders, added validation and exception flags, and supported a controlled adoption path.",
   metrics: [
     { value: "0 discrepancies", label: "after controls shipped" },
     { value: "2+ hrs/day", label: "projected savings" },
-    { value: "Daily use", label: "factory workflow" },
+    { value: "Daily use", label: "production workflow" },
   ],
 };
 

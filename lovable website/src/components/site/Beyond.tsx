@@ -11,9 +11,9 @@ const achievements = [
 ];
 
 const beyond = [
-  "I like work that turns ambiguity into a map: Process flows and the practical next step.",
+  "I like work that turns ambiguity into a structure, like process flows and a practical next step.",
   "Outside work, travel and visual thinking keep me creative and curious about how people adapt.",
-  "That shows up in my delivery style: clear documentation, calm coordination, and a bias toward tools that are people-friendly.",
+  "That shows up in my delivery style with clear documentation, calm coordination, and a bias toward tools that are people-friendly.",
 ];
 
 const achievementImages = [achievementImg, tborationImg, placementCellImg];
@@ -37,7 +37,7 @@ export function Beyond() {
             Beyond the role
           </span>
           <h2 className="font-serif text-4xl leading-tight text-ink md:text-5xl">
-            Leadership, learning, and the <em className="text-sage">human side...</em>
+            A glance at my life <em className="text-sage">outside the job</em>
           </h2>
         </div>
 
@@ -61,7 +61,7 @@ export function Beyond() {
                 Achievements
               </p>
               <h3 className="mt-3 font-serif text-2xl text-ink md:text-3xl">
-                Signals beyond the job title
+                A little beyond the résumé
               </h3>
               <ul className="mt-6 space-y-3">
                 {achievements.map((a) => (
@@ -94,7 +94,7 @@ export function Beyond() {
                 How I work
               </p>
               <h3 className="mt-3 font-serif text-2xl text-ink md:text-3xl">
-                Curious, structured, and adoption-minded
+                Curious, structured, and solution-oriented
               </h3>
               <ul className="mt-6 space-y-3">
                 {beyond.map((v) => (

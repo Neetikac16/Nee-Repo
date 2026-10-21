@@ -2,14 +2,19 @@ import { useEffect, useState } from "react";
 import japanImg from "@/assets/japan.jpg";
 import melbourneImg from "@/assets/melbourne.jpg";
 import travelImg from "@/assets/travel.jpg";
+import baliImg from "@/assets/bali.jpg";
+import baliSecondImg from "@/assets/bali 2.jpg";
+import bangkokImg from "@/assets/bangkok.jpg";
+import bangkokSecondImg from "@/assets/bangkok 2.jpg";
 import art1Img from "@/assets/Art 1.png";
 import art2Img from "@/assets/Art 2.png";
 import art3Img from "@/assets/Art 3.png";
 
 const galleries = {
-  travel: [japanImg, melbourneImg, travelImg],
+  travel: [japanImg, melbourneImg, travelImg, baliImg, baliSecondImg, bangkokImg, bangkokSecondImg],
   art: [art1Img, art2Img, art3Img],
 };
+const travelPlaces = ["Japan", "Melbourne, Victoria", "Travel moments", "Bali", "Bali", "Bangkok", "Bangkok"];
 
 export function Hobbies() {
   const [index, setIndex] = useState(0);
@@ -36,10 +41,10 @@ export function Hobbies() {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[16/10] overflow-hidden bg-sage-soft">
+            <div className="aspect-square overflow-hidden bg-sage-soft">
               <img
                 src={galleries.travel[index]}
-                alt="Travel gallery"
+                alt={`Travel photo: ${travelPlaces[index]}`}
                 width={1024}
                 height={1024}
                 loading="lazy"
@@ -54,15 +59,15 @@ export function Hobbies() {
                 Travel
               </h3>
               <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
-                Travel feels stimulating and exciting.
+                {travelPlaces[index]}
               </p>
             </div>
           </article>
 
           <article data-reveal className="overflow-hidden rounded-[2.5rem] bg-canvas shadow-soft">
-            <div className="aspect-[16/10] overflow-hidden bg-blush/50">
+            <div className="aspect-square overflow-hidden bg-blush/50">
               <img
-                src={galleries.art[index]}
+                src={galleries.art[index % galleries.art.length]}
                 alt="Art gallery"
                 width={1024}
                 height={1024}
